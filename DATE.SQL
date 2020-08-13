@@ -1,0 +1,9 @@
+DECALRE
+	l_date DATE;
+BEGIN
+   
+   SELECT SYSDATE
+	INTO l_date
+	FROM DUAL;
+
+END;
